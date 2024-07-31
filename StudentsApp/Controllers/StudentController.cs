@@ -28,7 +28,6 @@ namespace StudentApi.Presentation.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception (you can use a logging framework here)
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -47,7 +46,6 @@ namespace StudentApi.Presentation.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception (you can use a logging framework here)
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -62,7 +60,6 @@ namespace StudentApi.Presentation.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception (you can use a logging framework here)
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -82,7 +79,6 @@ namespace StudentApi.Presentation.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception (you can use a logging framework here)
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
